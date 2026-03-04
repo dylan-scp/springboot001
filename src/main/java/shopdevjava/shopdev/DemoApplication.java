@@ -1,4 +1,4 @@
-package shopdevjava.demo;
+package shopdevjava.shopdev;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
