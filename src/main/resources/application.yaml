@@ -4,9 +4,20 @@ player:
   address: 123 Main St
   email: huanhust1998@gmail.com
 
-server:
-  port: 8001
-
 spring:
-  profiles:
-    active: dev
+  application:
+    name: shopdev
+  datasource:
+    url: jdbc:mysql://localhost:3307/java_spring_boot
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
